@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <div class = 'topBar'>
+        <div class = 'topBarItems'>
+            <div class = 'brandName'><img src = 'logo.png'></div>
+            <div class = 'topButton'>Местоположение</div>
+            <div class = 'topButton'>Список магазинов</div>
+	    <a class = 'topButton' href='start.html'>Как это работает?</a>
+            <a class = 'topButton' href='form.html'>Регистрация</a>
+        </div>
+    </div>
+    <form class = 'inputForm'>
+        <h1>Регистрация</h1>
+        <div class = 'lilInfo'>Все поля обязательны для заполнения</div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Имя</div>
+            <input type = 'text' name = 'imya'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Фамилия</div>
+            <input type = 'text' name = 'surname'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>E-mail</div>
+            <input type = 'text' name = 'email'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Пароль</div>
+            <input type = 'text' name = 'password'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Повторите пароль</div>
+            <input type = 'text' name = 'againPassword'>
+        </div>
+        <h2>Адрес</h2>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Улица</div>
+            <input type = 'text' name = 'street'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Дом</div>
+            <input type = 'text' name = 'house'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Корпус</div>
+            <input type = 'text' name = 'building'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Квартира</div>
+            <input type = 'text' name = 'flat'>
+        </div>
+
+        <div class = 'inputField'>
+            <input type = 'checkbox' name = 'agreedForSpam'>
+            <div class = 'fieldTitle'>Получать письма с промоакциями и специальными предложениями</div>
+        </div>
+
+        <div class = 'inputField'>
+            <input type = 'checkbox' name = 'agreedForPersonalData'>
+            <div class = 'fieldTitle'>Согласие на обработку персональных данных</div>
+        </div>
+        <input class = 'postButton' type = 'submit' value = 'Зарегистрироваться'>
+    </form>
+    
+</body>
+</html>
