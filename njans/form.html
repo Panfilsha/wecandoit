@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <div class = 'topBar'>
+        <div class = 'topBarItems'>
+            <a class = 'brandName' href='start.html'><img src = 'logo.png'></a>
+            <div class = 'topButton'>Местоположение</div>
+            <div class = 'topButton'>Список магазинов</div>
+	    <div class = 'topButton' >Как это работает?</div>
+            <a class = 'topButton' href='form.html'>Регистрация</a>
+        </div>
+    </div>
+
+    <form action="act.php" class = 'inputForm' method= "POST">
+        <h1>Регистрация</h1>
+        <div class = 'lilInfo'>Все поля обязательны для заполнения</div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Имя</div>
+            <input type = 'text' name = 'Imya'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Фамилия</div>
+            <input type = 'text' name = 'Surname'>
+        </div>
+	<div class = 'inputField'>
+            <div class = 'fieldTitle'>Дата рождения</div>
+            <input type="date" name = "Birthday" placeholder="01-02-1998">
+        </div>
+
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>E-mail</div>
+            <input type = 'email' name = 'Email'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Пароль</div>
+            <input type = 'password' name = 'Password'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Повторите пароль</div>
+            <input type = 'password' name = 'RepPassword'>
+        </div>
+        <h2>Адрес</h2>
+
+	<div class = 'inputField'>
+            <div class = 'fieldTitle'>Город
+            </div>
+            <select  name = 'City'>
+            <option>Москва</option>
+            <option>Санкт-Петербург</option>
+            </select>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Улица</div>
+            <input type = 'text' name = 'Street'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Дом</div>
+            <input type = 'text' name = 'House'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Корпус</div>
+            <input type = 'text' name = 'Letter'>
+        </div>
+        <div class = 'inputField'>
+            <div class = 'fieldTitle'>Квартира</div>
+            <input type = 'text' name = 'Flat'>
+        </div>
+
+        <div class = 'inputField'>
+            <input type = 'checkbox' name = 'Mailing'>
+            <div class = 'fieldTitle'>Получать письма с промоакциями и специальными предложениями</div>
+        </div>
+
+        <div class = 'inputField'>
+            <input type = 'checkbox' name = 'agreedForPersonalData'>
+            <div class = 'fieldTitle'>Согласие на обработку персональных данных</div>
+        </div>
+        <input class = 'postButton' type = 'submit' value = 'Зарегистрироваться'>
+    </form>
+    
+</body>
+</html>

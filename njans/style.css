@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'regular';
+    src: url("HelveticaRegular.ttf");
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url("HelveticaMedium.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(250, 250, 230);
+    margin: 0;
+    padding: 0;
+}
+
+.topBar{
+    display: flex;
+    width: 100%;
+    background-color: rgb(255,225,60);
+}
+
+.topBarItems{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+
+.topButton{
+    font-family: 'regular';
+    margin-top: auto;
+    margin-bottom: 0px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black
+}
+
+.brandName{
+    font-family: 'medium';
+    padding: 10px;
+    height: 80px;
+    width: 150px;
+}
+
+.brandName img{
+    height: 100%;
+    width: auto;
+}
+
+.accountButtons{
+    display: flex;
+    padding: 10px;
+}
+
+.littleButton{
+    display:block;
+    padding: 10px;
+    margin: auto;
+}
+
+.infoCards{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.infoContent{
+    display: flex;
+    margin: auto;
+}
+
+.infoCard{
+    text-align: center;
+    display: block;
+    margin: 3px;
+    padding: 7px;
+    width: 200px;
+    height: 250px;
+    border-style: solid;
+}
+
+.info{
+    font-family: 'regular';
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.infoImage{
+    margin: auto;
+    background-color:white;
+    height: 135px;
+    width: 135px;
+}
+
+.categories{
+    background: rgb(131,82,0);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+
+.categoryContent{
+    display: flex;
+    margin: auto;
+}
+
+.categoryCard{
+    text-align: center;
+    display: block;
+    margin: 3px;
+    padding: 7px;
+    width: 200px;
+}
+
+.categoryImage{
+    background: white;
+    margin: auto;
+    height: 120px;
+    width: 120px;
+}
+
+.categoryTitle{
+    font-family: 'medium';
+    color: rgb(255,225,60);
+    padding: 10px;
+}
+
+.inputForm{
+    display: block;
+    padding: 10px;
+}
+
+h1, h2{
+    padding-left: 153px;
+    font-family: 'medium';
+}
+
+.inputField{
+    padding-left: 150px;
+    display: flex;
+    font-family: 'regular';
+    font-size: 0.8em;
+    align-items: center;
+}
+
+.fieldTitle{
+    padding-left: 3px;
+    min-width: 200px;
+}
+
+.lilInfo{
+    padding-left: 153px;
+    margin-bottom: 10px;
+    font-family: 'regular';
+    font-size: 1.2em;
+}
+
+.postButton{
+    font-family: 'regular';
+    font-size: 1em;
+    display: block;
+    margin: auto;
+    color: black;
+    background-color: rgb(255,225,60);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
